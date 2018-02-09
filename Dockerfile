@@ -6,4 +6,8 @@ RUN apk --no-cache add \
     bind-tools \
     curl \
     diffutils \
-    httpie
+    httpie \
+    py-pip \
+    python
+
+RUN pip install httpie-oauth
